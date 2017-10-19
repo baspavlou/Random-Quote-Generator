@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+
+
+body{
+background: #74ebd5; 
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5); 
+background: linear-gradient(to right, #ACB6E5, #74ebd5); 
+font-family: 'Saira Extra Condensed', sans-serif;
+  
+}
+blockquote{
+  margin-bottom:20px;
+  height:200px;
+  
+}
+.container{
+  margin:60px auto;
+  width:50%;
+  background:#D3D3D3;
+  padding:20px;
+  border-radius:10px;
+}
+.btn{
+  font-family:'sans-serif';
+  font-size:15px;
+  margin:5px;
+  
+}
+.btn-custom{
+   background-color:#66FF66;
+  color:white;
+}
+.btn-custom:hover{
+  background-color:#00EE00;
+  color:white;
+}
+#quote{
+  height:100px;
+  font-size:28px;
+  
+}
+#author{
+  height:50px;
+  margin-top:40px;
+  font-size:25px;
+  color:#2f2f2f;
+}
+@media screen and (max-width: 768px)  { 
+  .container{
+    width:95%;
+    margin:30px auto;
+    padding:10px;
+  }
+blockquote{
+  margin-bottom:10px;
+  height:180px;
+  
+  
+}
+  #quote{
+  height:80px;
+  font-size:18px;
+  
+}
+#author{
+  height:30px;
+  margin-top:50px;
+  font-size:15px;
+  color:#2f2f2f;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)  { 
+  .container{
+    width:90%;
+    margin:30px auto;
+    padding:10px;
+  }
+blockquote{
+  margin-bottom:10px;
+  height:180px;
+  
+  
+}
+  #quote{
+  height:80px;
+  font-size:24px;
+  
+}
+#author{
+  height:30px;
+  margin-top:50px;
+  font-size:20px;
+  color:#2f2f2f;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1324px)  { 
+  .container{
+    width:75%;
+    margin:30px auto;
+    padding:10px;
+  }
+blockquote{
+  margin-bottom:10px;
+  height:180px;
+  
+  
+}
+  #quote{
+  height:80px;
+  font-size:24px;
+  
+}
+#author{
+  height:30px;
+  margin-top:50px;
+  font-size:20px;
+  color:#2f2f2f;
+}
+}
